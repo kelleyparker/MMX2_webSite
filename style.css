@@ -9,7 +9,6 @@
 
 body{
 	background-color: lightblue;
-	
 }
 
 .description{
@@ -18,3 +17,13 @@ body{
 	font-family: monospace;
 }
 
+p.title{
+		font-size: 30pt;
+		font-family: cursive;
+		color: red;
+}
+
+.topLogo{
+		vertical-align: middle;
+		text-align: center;
+}

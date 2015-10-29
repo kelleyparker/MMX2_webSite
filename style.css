@@ -8,7 +8,11 @@
 }
 
 body{
-	background-color: lightblue;
+	background-color: black;
+/*	background-image: url("http://vignette2.wikia.nocookie.net/megaman/images/3/32/Mega_Man_X2_Box_Art.jpg");*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
 .description{
@@ -26,4 +30,11 @@ p.title{
 .topLogo{
 		vertical-align: middle;
 		text-align: center;
+}
+
+
+html{
+    color:aqua;
+    font-family: monospace;
+    font-size: 30pt;
 }

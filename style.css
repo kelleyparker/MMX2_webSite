@@ -40,7 +40,19 @@ html{
     text-shadow: 2px 2px #ff0000;
 }
 
-img{
+.gifEnemies{
     background-color: green;
     border-radius: 5px 15px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.titleImage{
+    background-color: green;
+    border-radius: 5px 15px 10px;
+  
+}
+
+p.category{
+    text-decoration: underline;
 }

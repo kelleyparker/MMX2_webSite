@@ -43,9 +43,12 @@ html{
     text-shadow: 2px 2px #ff0000;
 }
 
-.gifEnemies{
+.gifEnemies div{
     background-color: green;
     border-radius: 5px 15px 10px;
+    border-style: inset;
+    border-width: 7px;
+    
     width: 100px;
     height: 100px;
 }
@@ -53,9 +56,11 @@ html{
 .titleImage{
     background-color: green;
     border-radius: 5px 15px 10px;
-  
+    border-style: inset;
+    border-width: 12px;
 }
 
 p.category{
     text-decoration: underline;
 }
+

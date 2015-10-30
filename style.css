@@ -37,4 +37,5 @@ html{
     color:aqua;
     font-family: monospace;
     font-size: 30pt;
+    text-shadow: 2px 2px #ff0000;
 }

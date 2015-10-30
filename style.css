@@ -39,3 +39,8 @@ html{
     font-size: 30pt;
     text-shadow: 2px 2px #ff0000;
 }
+
+img{
+    background-color: green;
+    border-radius: 5px 15px 10px;
+}

@@ -32,6 +32,9 @@ p.title{
 		text-align: center;
 }
 
+.info{
+    font-size: 15pt;
+}
 
 html{
     color:aqua;

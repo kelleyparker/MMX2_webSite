@@ -50,7 +50,7 @@ p.title{
 		height: 50%;
 }
 
-.mavs{
+.gifMavs{
     background-color: green;
     border-radius: 5px 15px 10px;
     border-style: groove;
@@ -79,8 +79,6 @@ p.title{
     width: 100px;
     height: 100px;
 }
-
-
 
 p.category{
     text-decoration: underline;

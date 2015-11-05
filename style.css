@@ -8,7 +8,8 @@
 }
 
 body{
-	background-color: black;
+	background: url(images/x2background.gif);
+	/*background-color: black;*/
 /*	background-image: url("http://vignette2.wikia.nocookie.net/megaman/images/3/32/Mega_Man_X2_Box_Art.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -48,7 +49,7 @@ html{
     border-radius: 5px 15px 10px;
     border-style: inset;
     border-width: 7px;
-    
+
     width: 100px;
     height: 100px;
 }
@@ -63,4 +64,3 @@ html{
 p.category{
     text-decoration: underline;
 }
-

@@ -15,14 +15,8 @@ html{
 }
 
 body{
-<<<<<<< HEAD
-	background: url(images/x2background.gif);
-	/*background-color: black;*/
-/*	background-image: url("http://vignette2.wikia.nocookie.net/megaman/images/3/32/Mega_Man_X2_Box_Art.jpg");*/
-=======
+	background-image: url("images/x2background.gif");
 	background-color: black;
-	background-image: url("https://sickr.files.wordpress.com/2012/06/mega_man.jpg");
->>>>>>> origin/master
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -51,10 +45,6 @@ p.title{
 }
 
 .titleImage{
-    /*background-color: green;
-    border-radius: 5px 15px 10px;
-    border-style: inset;
-		border-width: 12px;*/
 		background-image: url();
 		width: 50%;
 		height: 50%;
@@ -65,11 +55,7 @@ p.title{
     border-radius: 5px 15px 10px;
     border-style: groove;
     border-width: 7px;
-<<<<<<< HEAD
-
-=======
 		border-color: brown;
->>>>>>> origin/master
     width: 100px;
     height: 100px;
 }

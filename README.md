@@ -12,6 +12,10 @@ This repository now includes a workflow at `.github/workflows/deploy-gh-pages.ym
 3. Under **Build and deployment**, set **Source** to **GitHub Actions**.
 4. Ensure your default branch is one of: `main`, `master`, or `work` (or update the workflow trigger).
 
+### Notes
+
+The older `static.yml` workflow was removed because it duplicated this one and both deployed to the same Pages environment.
+
 ### Site URL format
 
 After the workflow succeeds, your site URL will be:

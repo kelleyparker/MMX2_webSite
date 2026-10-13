@@ -1,3 +1,4 @@
+/* Page-wide theme: aqua monospace text with a red drop shadow */
 html{
     color:aqua;
     font-family: monospace;
@@ -5,6 +6,7 @@ html{
     text-shadow: 2px 2px #ff0000;
 }
 
+/* Unused legacy styles: .titleTop, .description, p.title, .topLogo */
 .titleTop{
 	font-size: 30px;
 	font-kerning: auto;
@@ -14,8 +16,9 @@ html{
 	font-family: monospace;
 }
 
+/* Background art fills the viewport; black shows while it loads */
 body{
-	background-image: url("images/x2background.gif");
+	background-image: url("images/x2background.png");
 	background-color: black;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -40,16 +43,18 @@ p.title{
 		text-align: center;
 }
 
+/* Small instruction line under the heading */
 .info{
     font-size: 15pt;
 }
 
+/* Game logo, scaled to half the page width */
 .titleImage{
-		background-image: url();
 		width: 50%;
-		height: 50%;
+		height: auto; /* keep the logo's aspect ratio */
 }
 
+/* Enemy thumbnails: one style per group (border colour + background tint) */
 .gifMavs{
     background-color: green;
     border-radius: 5px 15px 10px;
@@ -80,6 +85,14 @@ p.title{
     height: 100px;
 }
 
+/* Section headings (Mavericks, X Hunters, Sigma) */
 p.category{
     text-decoration: underline;
+}
+
+/* Keep the music player and logo tidy on small screens */
+audio{
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
 }
